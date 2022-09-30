@@ -2,11 +2,20 @@
 
 -- DROP TABLE IF EXISTS public.product;
 
-CREATE TABLE IF NOT EXISTS public.product
+/*CREATE TABLE IF NOT EXISTS public.product
 (
     id bigint NOT NULL DEFAULT nextval('product_id_seq'::regclass),
     name text COLLATE pg_catalog."default",
     description text COLLATE pg_catalog."default",
+    availability integer,
+    price bigint,
+    CONSTRAINT product_pkey PRIMARY KEY (id)
+)*/
+CREATE TABLE IF NOT EXISTS public.product
+(
+    id serial,
+    name text,
+    description text,
     availability integer,
     price bigint,
     CONSTRAINT product_pkey PRIMARY KEY (id)

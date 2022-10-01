@@ -5,4 +5,4 @@ create table product
     description  text,
     availability integer,
     price        bigint
-)
+);

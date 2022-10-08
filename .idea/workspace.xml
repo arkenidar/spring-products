@@ -7,11 +7,9 @@
     <list default="true" id="aca2deb1-0302-4d33-bea4-d8cf27b4a589" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6c86cc2e-b1d9-4fce-9018-fbb5f2934c47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6c86cc2e-b1d9-4fce-9018-fbb5f2934c47.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/c4b4cc52-a4ec-443b-a050-0676bd13864a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c4b4cc52-a4ec-443b-a050-0676bd13864a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c4b4cc52-a4ec-443b-a050-0676bd13864a/storage_v2/_src_/database/db02.AOsuAA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c4b4cc52-a4ec-443b-a050-0676bd13864a/storage_v2/_src_/database/db02.AOsuAA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.sql" beforeDir="false" afterPath="$PROJECT_DIR$/product.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,7 @@
       <updated>1664551450978</updated>
       <workItem from="1664551452980" duration="996000" />
       <workItem from="1664604075569" duration="576000" />
-      <workItem from="1664613266421" duration="3741000" />
+      <workItem from="1664613266421" duration="6263000" />
     </task>
     <task id="LOCAL-00001" summary="reduced, simpler, sql script, but equivalent in functionality">
       <created>1664604608379</created>

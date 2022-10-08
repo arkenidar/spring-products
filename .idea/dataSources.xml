@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="db02@localhost" uuid="c4b4cc52-a4ec-443b-a050-0676bd13864a">
+    <data-source source="LOCAL" name="pg db02@localhost" uuid="c4b4cc52-a4ec-443b-a050-0676bd13864a">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <remarks>local pg</remarks>
@@ -9,17 +9,26 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/db02</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="db02@arkenidar.com" uuid="ac455eab-4524-45b5-94e9-0c444475ccb4">
+    <data-source source="LOCAL" name="pg db02@arkenidar.com" uuid="ac455eab-4524-45b5-94e9-0c444475ccb4">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <remarks>remote pg</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://arkenidar.com:5432/db02</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/db02</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="db02@localhost [2]" uuid="6c86cc2e-b1d9-4fce-9018-fbb5f2934c47">
+    <data-source source="LOCAL" name="my db02@localhost" uuid="6c86cc2e-b1d9-4fce-9018-fbb5f2934c47">
       <driver-ref>mariadb</driver-ref>
       <synchronize>true</synchronize>
+      <remarks>local mysql</remarks>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://localhost:3306/db02</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="my db02@arkenidar.com" uuid="ede70988-2105-4d20-a49f-f8984d206243">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>remote mysql</remarks>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mariadb://localhost:3306/db02</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>

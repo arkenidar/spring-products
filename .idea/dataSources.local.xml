@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="IU-222.4167.29">
+  <component name="dataSourceStorageLocal" created-in="IU-222.4345.14">
     <data-source name="pg db02@localhost" uuid="c4b4cc52-a4ec-443b-a050-0676bd13864a">
       <database-info product="PostgreSQL" version="13.8 (Debian 13.8-0+deb11u1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.5.0" dbms="POSTGRES" exact-version="13.8" exact-driver-version="42.5">
         <identifier-quote-string>&quot;</identifier-quote-string>
@@ -64,7 +64,7 @@
       </schema-mapping>
       <ssh-properties>
         <enabled>true</enabled>
-        <ssh-config-id>baff184a-6af4-444b-b36d-6cc6eae20c89</ssh-config-id>
+        <ssh-config-id>98542ebf-c1a3-4be9-9d78-0ed2ba011176</ssh-config-id>
       </ssh-properties>
     </data-source>
   </component>

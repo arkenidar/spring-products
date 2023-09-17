@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "name": "name1",
+    "description": "this is cool",
+    "availability": 10,
+    "price": 100
+  }
+]

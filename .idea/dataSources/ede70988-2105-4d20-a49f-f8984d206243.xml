@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="my db02@arkenidar.com">
-  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.43">
+  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.49">
     <root id="1"/>
     <collation id="2" parent="1" name="armscii8_bin">
       <Charset>armscii8</Charset>
@@ -1036,24 +1036,24 @@
     </table>
     <column id="332" parent="331" name="id">
       <AutoIncrement>2</AutoIncrement>
-      <DataType>bigint(20) unsigned|0s</DataType>
+      <DasType>bigint(20) unsigned|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="333" parent="331" name="name">
-      <DataType>text|0s</DataType>
+      <DasType>text|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="334" parent="331" name="description">
-      <DataType>text|0s</DataType>
+      <DasType>text|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="335" parent="331" name="availability">
-      <DataType>int(11)|0s</DataType>
+      <DasType>int(11)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="336" parent="331" name="price">
-      <DataType>bigint(20)|0s</DataType>
+      <DasType>bigint(20)|0s</DasType>
       <Position>5</Position>
     </column>
     <index id="337" parent="331" name="PRIMARY">

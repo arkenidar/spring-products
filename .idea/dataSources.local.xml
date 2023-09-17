@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="IU-222.4345.14">
+  <component name="dataSourceStorageLocal" created-in="IU-232.9921.47">
     <data-source name="pg db02@localhost" uuid="c4b4cc52-a4ec-443b-a050-0676bd13864a">
-      <database-info product="PostgreSQL" version="13.8 (Debian 13.8-0+deb11u1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.5.0" dbms="POSTGRES" exact-version="13.8" exact-driver-version="42.5">
+      <database-info product="PostgreSQL" version="16.0" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.6.0" dbms="POSTGRES" exact-version="16.0" exact-driver-version="42.6">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
@@ -10,14 +10,19 @@
       <user-name>postgres</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database" qname="@">
-            <node kind="schema" qname="@" />
+          <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database" qname="db02">
+              <node kind="schema" qname="public" />
+            </node>
           </node>
         </introspection-scope>
       </schema-mapping>
     </data-source>
     <data-source name="pg db02@arkenidar.com" uuid="ac455eab-4524-45b5-94e9-0c444475ccb4">
-      <database-info product="PostgreSQL" version="13.8 (Debian 13.8-0+deb11u1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.5.0" dbms="POSTGRES" exact-version="13.8" exact-driver-version="42.5">
+      <database-info product="PostgreSQL" version="13.11 (Debian 13.11-0+deb11u1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.6.0" dbms="POSTGRES" exact-version="13.11" exact-driver-version="42.6">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
@@ -32,7 +37,7 @@
       </schema-mapping>
       <ssh-properties>
         <enabled>true</enabled>
-        <ssh-config-id>baff184a-6af4-444b-b36d-6cc6eae20c89</ssh-config-id>
+        <ssh-config-id>e5f58a3a-ea6c-46e0-b3b7-6c103bf96e87</ssh-config-id>
       </ssh-properties>
     </data-source>
     <data-source name="my db02@localhost" uuid="6c86cc2e-b1d9-4fce-9018-fbb5f2934c47">
